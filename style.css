@@ -147,3 +147,87 @@
     font-weight: 500;/* Товщина шрифту 500*/
     line-height: normal;/* Звичайна висота рядка тексту */
   }
+
+  /* service */
+
+.service-title {
+  display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+  align-items: center;/* Горизонтальне вирівнювання елементів в центрі */
+
+  color: white;/* Встановіть колір тексту white */
+  font-size: 42px;/* Розмір шрифту 42px */
+  font-weight: 700;/* Товщина шрифту 700*/
+  /* Міжрядковий інтервал normal */
+  margin-bottom: 32px;/* Зовнішній відступ знизу 32px */
+}
+
+.service-text {
+  display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+  align-items: center;/* Горизонтальне вирівнювання елементів в центрі */
+}
+
+.service-article {
+  /* Вирівняйте текст статті по центру */
+  color: white;/* Встановіть колір тексту white */
+  font-size: 16px;/* Розмір шрифту 16px */
+  font-weight: 400;/* Товщина шрифту 400*/
+  /* Міжрядковий інтервал 26px */
+  margin-bottom: 40px;/* Зовнішній відступ знизу 40px */
+}
+
+.service-items {
+  display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+  align-items: center;/* Горизонтальне вирівнювання елементів в центрі */
+  /* Встановіть проміжок між елементами 30px не через margin ta padding */
+}
+
+.service-item {
+  display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+  flex-direction: column;/* Розташовуйте елементи в стовпчик */
+  justify-content: center;/* Вирівнюйте елементи по центру по вертикалі */
+  align-items: center;/* Вирівнюйте елементи по центру по горизонталі */
+
+  /* Закруглення кутів 34px (border)*/
+  border: 1px solid var(--Bg-2, rgba(255, 255, 255, 0.08));
+  background: linear-gradient(
+    268deg,
+    rgba(254, 254, 255, 0.03) -11.04%,
+    rgba(255, 255, 255, 0.02) 104.89%
+  );
+
+  /* Shadow  */
+  box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px 40px;/* Внутрішній відступ 20px ta 40 px*/
+}
+
+.service-item-icon {
+  margin: 18px;/* Зовнішній відступ 18px */
+}
+
+.service-item-title {
+  margin: 18px;/* Зовнішній відступ 18px */
+  color: white;/* Встановіть колір тексту white */
+  font-size: 24px;/* Розмір шрифту 24px */
+  font-weight: 500;/* Товщина шрифту 500*/
+  /* Міжрядковий інтервал normal */
+}
+
+.service-item-article {
+  margin-bottom: 24px;/* Зовнішній відступ снизу 24px */
+  color: white;/* Встановіть колір тексту white */
+ font-size: 16px; /* Розмір шрифту 16px */
+  font-weight: 400;/* Товщина шрифту 400*/
+  /* Міжрядковий інтервал 26px */
+  text-align: left;/* Вирівнюйте текст по лівому краю (text-align)*/
+}
+
+.service-item-link {
+  display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
+  /* Відмініть оформлення підкреслення для посилання */
+}
+
+.service-item-link span {
+  color: white;/* Встановіть колір тексту white */
+  margin-right: 8px;/* Зовнішній відступ справа 8px */
+}
+
