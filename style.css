@@ -157,28 +157,28 @@
   color: white;/* Встановіть колір тексту white */
   font-size: 42px;/* Розмір шрифту 42px */
   font-weight: 700;/* Товщина шрифту 700*/
-  /* Міжрядковий інтервал normal */
+ line-height: normal; /* Міжрядковий інтервал normal */
   margin-bottom: 32px;/* Зовнішній відступ знизу 32px */
 }
 
 .service-text {
   display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
-  align-items: center;/* Горизонтальне вирівнювання елементів в центрі */
+  justify-content: center;/* Горизонтальне вирівнювання елементів в центрі */
 }
 
 .service-article {
-  /* Вирівняйте текст статті по центру */
+  align-items: center;/* Вирівняйте текст статті по центру */
   color: white;/* Встановіть колір тексту white */
   font-size: 16px;/* Розмір шрифту 16px */
   font-weight: 400;/* Товщина шрифту 400*/
-  /* Міжрядковий інтервал 26px */
+  line-height: 26px;/* Міжрядковий інтервал 26px */
   margin-bottom: 40px;/* Зовнішній відступ знизу 40px */
 }
 
 .service-items {
   display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
-  align-items: center;/* Горизонтальне вирівнювання елементів в центрі */
-  /* Встановіть проміжок між елементами 30px не через margin ta padding */
+  justify-content: center;/* Горизонтальне вирівнювання елементів в центрі */
+ gap: 30px; /* Встановіть проміжок між елементами 30px не через margin ta padding */
 }
 
 .service-item {
@@ -209,7 +209,7 @@
   color: white;/* Встановіть колір тексту white */
   font-size: 24px;/* Розмір шрифту 24px */
   font-weight: 500;/* Товщина шрифту 500*/
-  /* Міжрядковий інтервал normal */
+  line-height: normal;/* Міжрядковий інтервал normal */
 }
 
 .service-item-article {
@@ -217,13 +217,13 @@
   color: white;/* Встановіть колір тексту white */
  font-size: 16px; /* Розмір шрифту 16px */
   font-weight: 400;/* Товщина шрифту 400*/
-  /* Міжрядковий інтервал 26px */
+  line-height: 26px;/* Міжрядковий інтервал 26px */
   text-align: left;/* Вирівнюйте текст по лівому краю (text-align)*/
 }
 
 .service-item-link {
   display: flex;/* Використовуйте flex-контейнер для вирівнювання по центру */
-  /* Відмініть оформлення підкреслення для посилання */
+  text-decoration: none;/* Відмініть оформлення підкреслення для посилання */
 }
 
 .service-item-link span {
